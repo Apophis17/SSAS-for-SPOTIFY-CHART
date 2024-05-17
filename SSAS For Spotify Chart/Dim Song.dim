@@ -1,0 +1,287 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ce14df53-ac6c-4b09-85c5-4efbed360286" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Song</ID>
+  <Name>Dim Song</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2488" scrolltop="-4855" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8017" y="8387" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Song" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Song" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2488</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4855</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="6" xmlns="">
+          <Shapes NodeWidth="117">
+            <Shape Id="Song ID" Expanded="true">
+              <Attributes>
+                <Attribute Id="Song ID" />
+                <Attribute Id="Acousticness" />
+                <Attribute Id="Album ID" />
+                <Attribute Id="Danceability" />
+                <Attribute Id="Duration" />
+                <Attribute Id="Song Name" />
+                <Attribute Id="Tempo" />
+                <Attribute Id="Valence" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="bf1d5827-4ef0-47f7-910c-3004cabfa411">
+    <DataSourceViewID>SPOTIFY CHART</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="76b4558e-6d74-43b4-bf3c-628956343f31">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="5148fc42-9a06-480c-a8a3-88bbaf1fbb9d">
+      <ID>Song ID</ID>
+      <Name>Song ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b4ad97b6-730f-447e-a8df-047ab47cdbdd">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="322890a3-39cf-4c3f-9eef-731be24c0e39">
+            <TableID>dbo_Dim_Song</TableID>
+            <ColumnID>Song_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ca338851-d0f1-4de1-af80-88b7519c977d">
+          <AttributeID>Album ID</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Album ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="66e67633-9976-4ad3-affc-51a1a6a67308">
+          <AttributeID>Song Name</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Song Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="62ff5f38-a02f-4d0e-a8cf-06b18edf0016">
+          <AttributeID>Duration</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Duration</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="71bec3bc-a0ad-478e-8a18-0b422c6c5add">
+          <AttributeID>Tempo</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Tempo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c9e99c95-085c-43e6-b2ea-b1d7d6c761da">
+          <AttributeID>Valence</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Valence</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cfba22f0-a4be-459f-bb9c-a8dab396d1e5">
+          <AttributeID>Acousticness</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Acousticness</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1f097cc6-f7af-4aed-b328-d1ca44f6f381">
+          <AttributeID>Danceability</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Danceability</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2edd6577-b499-4cae-ba70-3d285aa1b71a">
+      <ID>Album ID</ID>
+      <Name>Album ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="13c7ae08-b4b9-4c1c-a527-b83a15803b3a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7990ef95-142f-4abc-8bbe-844d35e20b85">
+            <TableID>dbo_Dim_Song</TableID>
+            <ColumnID>Album_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c3502fdc-ac4b-4729-a701-a5772da56f44">
+      <ID>Song Name</ID>
+      <Name>Song Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c3bf3460-b4a7-4c43-b4cf-7d67983f9265">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5e85445f-09e7-400b-9a2a-975ef576e2a6">
+            <TableID>dbo_Dim_Song</TableID>
+            <ColumnID>Song_Name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b292134c-2271-4545-b6e9-1b7ed5161d61">
+      <ID>Duration</ID>
+      <Name>Duration</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a2e65050-f4f9-47c4-902b-bb67916a7a03">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9ecf4c4d-e440-4db5-a898-41712d5c198a">
+            <TableID>dbo_Dim_Song</TableID>
+            <ColumnID>Duration</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5a5f46bb-76b4-45c8-9e30-75f6881dec02">
+      <ID>Tempo</ID>
+      <Name>Tempo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dce8f33b-146c-435a-b045-19011bea8fb1">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1f9acb2a-ee86-43bf-9edc-b13ea6a84f5c">
+            <TableID>dbo_Dim_Song</TableID>
+            <ColumnID>Tempo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="24491be0-6a21-41fa-a344-3e946294da6e">
+      <ID>Valence</ID>
+      <Name>Valence</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b9b66592-e595-4924-bba2-6e38caa46b77">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9e67bb8e-7a6b-4b9b-8d99-b1c5a3e158c1">
+            <TableID>dbo_Dim_Song</TableID>
+            <ColumnID>Valence</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ec4bb8b5-0e52-45ad-81c9-1245959f8ce1">
+      <ID>Acousticness</ID>
+      <Name>Acousticness</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5359f68a-a4c4-4131-8374-393114d25cb3">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce98185a-6d58-4250-8f5e-ebcda0359bde">
+            <TableID>dbo_Dim_Song</TableID>
+            <ColumnID>Acousticness</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="da57b146-13b0-47d5-a7da-f5cbc1eed443">
+      <ID>Danceability</ID>
+      <Name>Danceability</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e71de2db-bfa2-4f41-b052-8f2415776393">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6fb2ccca-9980-4f53-a613-bf2061e8d305">
+            <TableID>dbo_Dim_Song</TableID>
+            <ColumnID>Danceability</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="06ad40ee-6582-4d78-b845-e7810a07100d">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="8980439a-61b7-471d-9a8c-a61443b5e689">
+          <ID>Song ID</ID>
+          <Name>Song ID</Name>
+          <SourceAttributeID>Song ID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
